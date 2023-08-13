@@ -4,7 +4,7 @@ import numpy as np
 import time
 from pysinewave import SineWave
 
-finNum = random.randrange(1,101)
+finNum = random.randrange(1,51)
 
 unSorteddList = np.random.choice(range(1, finNum + 1), size=finNum, replace=False)
 x = np.arange(0,finNum,1)
